@@ -5,7 +5,7 @@
 	padding: 0;
 	border: 0;
 	box-sizing: border-box;
-	font-family: "Oppins", sans-serif;
+	font-family:'Times New Roman', Times, serif;
 }
 
 body{
@@ -100,12 +100,13 @@ form input[type="submit"]{
 	margin-top: 2rem;
 	padding: 0.4rem;
 	width: 100%;
-	background: linear-gradient(to left, rgb(76, 211, 123), rgb(206, 129, 244));
+	background:  rgb(76, 211, 123);
 	cursor: pointer;
 	color: white;
 	font-size: 1rem;
 	font-weight: 300;
 	border-radius: 4px;
+	text-transform: uppercase;
 	transition: all 0.3s ease;
 }
 
@@ -150,7 +151,18 @@ form input[type="submit"]:hover{
 	background: linear-gradient(to right, #56a7f2, #468aca);
 }
 
+.footer .social-field.twitter:hover{
+	background: linear-gradient(to right,  #468aca, #56a7f2);
+	letter-spacing: 1.5px;
+}
+
 .footer .social-field.facebook{
 	background: linear-gradient(to right, #1e3c72, #2a5298);
 }
+
+.footer .social-field.facebook:hover{
+	background: linear-gradient(to right,  #2a5298, #1e3c72);
+	letter-spacing: 1.5px;
+}
+
 
